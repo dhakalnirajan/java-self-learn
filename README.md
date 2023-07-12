@@ -1,4 +1,5 @@
-# java-self-learn
+# Java Programs For Learning Myself
+
 This repository contains what I am learning Java by myself and in the classroom.
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)&nbsp;
@@ -8,7 +9,7 @@ This repository contains what I am learning Java by myself and in the classroom.
 
 <br>
 
-Authored By: 
+Authored By:
 
 ![Nirajan Dhakal](https://img.shields.io/badge/Nirajan%20Dhakal-White?style=for-the-badge&logoColor=White&logoWidth=32)
 
@@ -40,7 +41,7 @@ javac MainClass.java
 ```
 
 3. Run the program by typing the following command in the terminal:
-   
+
    ```
     java MainClass
    ```
@@ -82,7 +83,7 @@ The Java compiler is a program that translates Java source code into class files
 
 ## Java Virtual Machine (JVM)
 
-The Java virtual machine (JVM) is a virtual machine that enables a computer to run a Java program. The Java virtual machine  interprets Java bytecodes. The Java virtual machine is typically used to execute programs that are written in the Java programming language.
+The Java virtual machine (JVM) is a virtual machine that enables a computer to run a Java program. The Java virtual machine  interprets Java bytecode. The Java virtual machine is typically used to execute programs that are written in the Java programming language.
 
 <br>
 
@@ -110,13 +111,13 @@ The Java virtual machine native interface is a  mechanism for loading libraries 
 
 <br>
 
-### How To Install Java Development Kit and Java Runtime Enviroment (Two Ways):
+### How To Install Java Development Kit and Java Runtime Enviroment (Two Ways)
 
 First Way:
 
-1. Download JDK from this link: https://www.oracle.com/java/technologies/downloads/
+1. Download JDK from this link: <https://www.oracle.com/java/technologies/downloads/>
 2. Install JDK
-3. Download JRE from this link: https://www.java.com/en/download/
+3. Download JRE from this link: <https://www.java.com/en/download/>
 4. Install JRE
 
 <br>
