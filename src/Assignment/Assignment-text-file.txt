@@ -1,0 +1,64 @@
+7. Define exception handling in Java. Why is exception handling needed in Java programming?
+
+Answer:
+Exception handling in Java is a mechanism that allows you to handle errors that occur during the
+execution of your program. Exceptions can be caused by a variety of factors, such as invalid input,
+division by zero, or errors in your code.
+
+When an exception occurs, the program will normally stop and generate an error message. This is
+called uncontrolled termination. Uncontrolled termination can be disruptive to the user and can
+make it difficult to debug your program.
+
+Exception handling allows you to handle exceptions gracefully, without crashing your program.
+You can do this by using the try-catch statement. The try-catch statement allows you to specify
+a block of code that may throw an exception. If an exception is thrown in the try block, the
+catch block will be executed. The catch block allows you to handle the exception in a specific way.
+
+Exception handling is an important part of Java programming. It allows you to write robust and
+reliable programs that can handle errors gracefully.
+
+Here are some of the benefits of using exception handling in Java:
+
+- It prevents uncontrolled termination. When an exception occurs, the program will not crash. Instead,
+the exception will be handled in a specific way. This makes the program more robust and reliable.
+- It makes debugging easier. When an exception occurs, the program will generate an error message that
+contains information about the exception. This information can be used to debug the program and fix
+the error.
+- It allows you to customize the way exceptions are handled. You can use the catch block to
+handle exceptions in a specific way. This gives you more control over how your program handles errors.
+
+8. How can you handle exceptions in Java? Explain.
+
+Answer:
+
+There are two ways to handle exceptions in Java:
+
+Try-catch statement: The try-catch statement is the most common way to handle exceptions in Java.
+It allows you to specify a block of code that may throw an exception. If an exception is thrown in
+the try block, the catch block will be executed. The catch block allows you to handle the exception
+in a specific way.
+Throw statement: The throw statement is used to throw an exception. This is useful if you want to
+explicitly handle an exception in your code.
+
+Here is an example of how to use the try-catch statement to handle an exception:
+
+        try {
+                // Code that may throw an exception
+        } catch (Exception e) {
+               // Handle the exception
+        System.out.println(e.getMessage());
+        }
+
+In this example, the try block contains code that may throw an exception. If an exception is thrown
+in the try block, the catch block will be executed. The catch block will print the message of the
+exception to the console.
+
+Here is an example of how to use the throw statement to throw an exception:
+
+        if (condition) {
+            throw new Exception("This is an exception");
+        }
+
+
+In this example, the throw statement is used to throw an exception if the condition is true.
+The exception that is thrown is an Exception object with the message "This is an exception".
