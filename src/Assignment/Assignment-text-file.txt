@@ -62,3 +62,59 @@ Here is an example of how to use the throw statement to throw an exception:
 
 In this example, the throw statement is used to throw an exception if the condition is true.
 The exception that is thrown is an Exception object with the message "This is an exception".
+
+12. Explain checked and unchecked exceptions with example of each.
+
+Answer:
+
+In Java, there are two types of exceptions: checked exceptions and unchecked exceptions.
+
+Checked exceptions are exceptions that must be declared in the throws clause of the method that may
+throw them. This means that the method's caller must either handle the exception or re-throw it.
+Unchecked exceptions are exceptions that do not need to be declared in the throws clause of the
+method that may throw them. This means that the method's caller does not have to handle the exception,
+and it will simply be propagated to the next method in the call stack.
+
+Here are some examples of checked exceptions:
+
+- IOException: This exception is thrown when an I/O error occurs.
+- ClassNotFoundException: This exception is thrown when a class cannot be found.
+- SQLException: This exception is thrown when a database error occurs.
+
+Here are some examples of unchecked exceptions:
+
+- NullPointerException: This exception is thrown when a null pointer is dereferenced.
+- ArithmeticException: This exception is thrown when an arithmetic operation results in an error.
+- ArrayIndexOutOfBoundsException: This exception is thrown when an array index is out of bounds.
+
+Checked exceptions are typically caused by errors in the program's logic. Unchecked exceptions are
+typically caused by errors in the program's input or by unexpected events. For example,
+a checked exception might be thrown if a file cannot be found, or if a network connection fails.
+Unchecked exceptions are typically caused by errors in the program's input or by unexpected events.
+For example, an unchecked exception might be thrown if a user enters an invalid input, or if a
+hardware error occurs.
+
+Checked Exception:
+- These are exceptions that must be either caught and handled during compile time.
+- These are exceptions that need to be explicitly caught or declared in the method signature.
+- If no exception handling code is provided, then compiler signals a compilation error.
+
+Examples: ‘IOException’, ‘SQLException’ etc.
+
+
+Unchecked Exception:
+- These are exceptions that must be either caught and handled during compile time.
+- These are exceptions that need to be explicitly caught or declared in the method signature.
+- If no exception handling code is provided, then compiler signals a compilation error.
+
+Examples:‘ArithmeticException’, ArrayIndexOutOfBoundsException’, etc.
+
+
+It is important to handle checked exceptions gracefully. This means that you should either handle
+the exception in the method that throws it, or you should re-throw the exception to the method's
+caller. If you do not handle a checked exception, your program will not compile.
+
+It is not necessary to handle unchecked exceptions. However, it is a good practice to do so.
+This is because unchecked exceptions can cause your program to crash if they are not handled.
+
+There are two code files for checked and unchecked exception that are written as examples. Please find them.
