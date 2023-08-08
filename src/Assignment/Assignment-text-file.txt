@@ -1,31 +1,19 @@
 7. Define exception handling in Java. Why is exception handling needed in Java programming?
 
 Answer:
-Exception handling in Java is a mechanism that allows you to handle errors that occur during the
-execution of your program. Exceptions can be caused by a variety of factors, such as invalid input,
-division by zero, or errors in your code.
+Exception handling in Java is a mechanism that allows you to handle errors that occur during the execution of your program. Exceptions can be caused by a variety of factors, such as invalid input, division by zero, or errors in your code.
 
-When an exception occurs, the program will normally stop and generate an error message. This is
-called uncontrolled termination. Uncontrolled termination can be disruptive to the user and can
-make it difficult to debug your program.
+When an exception occurs, the program will normally stop and generate an error message. This is called uncontrolled termination. Uncontrolled termination can be disruptive to the user and can make it difficult to debug your program.
 
-Exception handling allows you to handle exceptions gracefully, without crashing your program.
-You can do this by using the try-catch statement. The try-catch statement allows you to specify
-a block of code that may throw an exception. If an exception is thrown in the try block, the
-catch block will be executed. The catch block allows you to handle the exception in a specific way.
+Exception handling allows you to handle exceptions gracefully, without crashing your program. You can do this by using the try-catch statement. The try-catch statement allows you to specify a block of code that may throw an exception. If an exception is thrown in the try block, the catch block will be executed. The catch block allows you to handle the exception in a specific way.
 
-Exception handling is an important part of Java programming. It allows you to write robust and
-reliable programs that can handle errors gracefully.
+Exception handling is an important part of Java programming. It allows you to write robust and reliable programs that can handle errors gracefully.
 
 Here are some of the benefits of using exception handling in Java:
 
-- It prevents uncontrolled termination. When an exception occurs, the program will not crash. Instead,
-the exception will be handled in a specific way. This makes the program more robust and reliable.
-- It makes debugging easier. When an exception occurs, the program will generate an error message that
-contains information about the exception. This information can be used to debug the program and fix
-the error.
-- It allows you to customize the way exceptions are handled. You can use the catch block to
-handle exceptions in a specific way. This gives you more control over how your program handles errors.
+- It prevents uncontrolled termination. When an exception occurs, the program will not crash. Instead, the exception will be handled in a specific way. This makes the program more robust and reliable.
+- It makes debugging easier. When an exception occurs, the program will generate an error message that contains information about the exception. This information can be used to debug the program and fix the error.
+- It allows you to customize the way exceptions are handled. You can use the catch block to handle exceptions in a specific way. This gives you more control over how your program handles errors.
 
 8. How can you handle exceptions in Java? Explain.
 
@@ -33,12 +21,8 @@ Answer:
 
 There are two ways to handle exceptions in Java:
 
-Try-catch statement: The try-catch statement is the most common way to handle exceptions in Java.
-It allows you to specify a block of code that may throw an exception. If an exception is thrown in
-the try block, the catch block will be executed. The catch block allows you to handle the exception
-in a specific way.
-Throw statement: The throw statement is used to throw an exception. This is useful if you want to
-explicitly handle an exception in your code.
+Try-catch statement: The try-catch statement is the most common way to handle exceptions in Java. It allows you to specify a block of code that may throw an exception. If an exception is thrown in the try block, the catch block will be executed. The catch block allows you to handle the exception in a specific way.
+Throw statement: The throw statement is used to throw an exception. This is useful if you want to explicitly handle an exception in your code.
 
 Here is an example of how to use the try-catch statement to handle an exception:
 
@@ -49,9 +33,7 @@ Here is an example of how to use the try-catch statement to handle an exception:
         System.out.println(e.getMessage());
         }
 
-In this example, the try block contains code that may throw an exception. If an exception is thrown
-in the try block, the catch block will be executed. The catch block will print the message of the
-exception to the console.
+In this example, the try block contains code that may throw an exception. If an exception is thrown in the try block, the catch block will be executed. The catch block will print the message of the exception to the console.
 
 Here is an example of how to use the throw statement to throw an exception:
 
@@ -60,8 +42,7 @@ Here is an example of how to use the throw statement to throw an exception:
         }
 
 
-In this example, the throw statement is used to throw an exception if the condition is true.
-The exception that is thrown is an Exception object with the message "This is an exception".
+In this example, the throw statement is used to throw an exception if the condition is true. The exception that is thrown is an Exception object with the message "This is an exception".
 
 12. Explain checked and unchecked exceptions with example of each.
 
@@ -69,11 +50,7 @@ Answer:
 
 In Java, there are two types of exceptions: checked exceptions and unchecked exceptions.
 
-Checked exceptions are exceptions that must be declared in the throws clause of the method that may
-throw them. This means that the method's caller must either handle the exception or re-throw it.
-Unchecked exceptions are exceptions that do not need to be declared in the throws clause of the
-method that may throw them. This means that the method's caller does not have to handle the exception,
-and it will simply be propagated to the next method in the call stack.
+Checked exceptions are exceptions that must be declared in the throws clause of the method that may throw them. This means that the method's caller must either handle the exception or re-throw it. Unchecked exceptions are exceptions that do not need to be declared in the throws clause of the method that may throw them. This means that the method's caller does not have to handle the exception, and it will simply be propagated to the next method in the call stack.
 
 Here are some examples of checked exceptions:
 
@@ -87,12 +64,7 @@ Here are some examples of unchecked exceptions:
 - ArithmeticException: This exception is thrown when an arithmetic operation results in an error.
 - ArrayIndexOutOfBoundsException: This exception is thrown when an array index is out of bounds.
 
-Checked exceptions are typically caused by errors in the program's logic. Unchecked exceptions are
-typically caused by errors in the program's input or by unexpected events. For example,
-a checked exception might be thrown if a file cannot be found, or if a network connection fails.
-Unchecked exceptions are typically caused by errors in the program's input or by unexpected events.
-For example, an unchecked exception might be thrown if a user enters an invalid input, or if a
-hardware error occurs.
+Checked exceptions are typically caused by errors in the program's logic. Unchecked exceptions are typically caused by errors in the program's input or by unexpected events. For example, a checked exception might be thrown if a file cannot be found, or if a network connection fails. Unchecked exceptions are typically caused by errors in the program's input or by unexpected events. For example, an unchecked exception might be thrown if a user enters an invalid input, or if a hardware error occurs.
 
 Checked Exception:
 - These are exceptions that must be either caught and handled during compile time.
@@ -110,11 +82,8 @@ Unchecked Exception:
 Examples:‘ArithmeticException’, ArrayIndexOutOfBoundsException’, etc.
 
 
-It is important to handle checked exceptions gracefully. This means that you should either handle
-the exception in the method that throws it, or you should re-throw the exception to the method's
-caller. If you do not handle a checked exception, your program will not compile.
+It is important to handle checked exceptions gracefully. This means that you should either handle the exception in the method that throws it, or you should re-throw the exception to the method's caller. If you do not handle a checked exception, your program will not compile.
 
-It is not necessary to handle unchecked exceptions. However, it is a good practice to do so.
-This is because unchecked exceptions can cause your program to crash if they are not handled.
+It is not necessary to handle unchecked exceptions. However, it is a good practice to do so. This is because unchecked exceptions can cause your program to crash if they are not handled.
 
 There are two code files for checked and unchecked exception that are written as examples. Please find them.
