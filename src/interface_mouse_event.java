@@ -24,7 +24,7 @@ class AWTDemo extends Frame {
     Button sbmt = new Button(Submit);
     sbmt.setBounds(120, 150, 100, 20);
 
-    Button reset = new Button(reset);
+    Button reset = new Button(Reset);
     reset.setBounds(150, 150, 100, 20);
 
     add(empName);
